@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/grapherActivity"
+        android:name="com.example.kursovaya_grapher.GrapherActivity"
+        android:label="activity_grapher"
+        tools:layout="@layout/activity_grapher" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.kursovaya_grapher.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity3_to_grapherActivity"
+            app:destination="@id/grapherActivity" />
+    </activity>
+</navigation>

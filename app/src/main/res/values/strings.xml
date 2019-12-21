@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kursovaya_grapher</string>
+    <string name="help_text">Помимо базовых операций (+,-,*,/,^):</string>
+    <string name="abs">- abs: абсолютное (по модулю) значение</string>
+    <string name="acos">- acos: aркосинус</string>
+    <string name="asin">- asin: арксинус</string>
+    <string name="atan">- atan: арктангенс</string>
+    <string name="cbrt">- cbrt: корень кубический</string>
+    <string name="ceil">- ceil: ближайшее верхнее целое</string>
+    <string name="cos">- cos: косинус</string>
+    <string name="cosh">- cosh: гиперболический косинус</string>
+    <string name="exp">- exp: экспонента (эйлеровское число) (e^x)</string>
+    <string name="floor">- floor: ближайшее нижнее целое</string>
+    <string name="log">- log: натуральный логарифм (по основанию e)</string>
+    <string name="log10">- log10: логарифм по основанию 10</string>
+    <string name="log2">- log2: логарифм по основанию 2</string>
+    <string name="sin">- sin: синус</string>
+    <string name="sinh">- sinh: гиперболический синус</string>
+    <string name="sqrt">- sqrt: корень</string>
+    <string name="tan">- tan: тангенс</string>
+    <string name="tanh">- tanh: гиперболический тангенс</string>
+    <string name="signum">- signum: сигнум(кусочно-постоянная)</string>
+</resources>
